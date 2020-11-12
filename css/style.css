@@ -190,3 +190,47 @@ img {
   margin: 0 15px;
 }
 
+/* Mobile */
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;    
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column, .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+    width: 70%;
+  }
+
+  /* Johann's extra improvements */
+  .solutions .column-2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Johann's extra improvements */
+  .blog .column-2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Johann's extra improvements */
+  .contact .column-2 {
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -48,6 +48,12 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  /* for JS animation script in HTML */
+  transition: 1s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar a {
